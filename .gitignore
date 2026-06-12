@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+data/
+*.tsbuildinfo
+
+# Local env files — real credentials live here, never commit them.
+.env
+.env*.local
+
+# Claude Code local settings (contains machine-specific allowed commands).
+.claude/settings.local.json
+
+.DS_Store
